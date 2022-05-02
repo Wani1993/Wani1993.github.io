@@ -32,3 +32,59 @@
     font-size: 19px;
     font-weight: 500;
 }
+
+/* 메인비주얼 */
+.main_visual {
+    position: relative;
+    height: 600px;
+    background: url(../img/main_slider01.jpg) no-repeat center top/cover;
+}
+
+.main_visual .slogan {
+    position: absolute;
+    top: 100px;
+    right: 600px;
+}
+
+.main_slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+}
+
+.main_slider h3 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0 0 30px 0;
+    background: linear-gradient(to right top, #eda3eb, #ffa69e);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.main_slider strong {
+    display: block;
+    margin: 0 0 20px 0;
+    color: #5e51d9;
+}
+
+.main_slider .slick-dots {
+    padding: 30px 0 0 0;
+}
+
+.main_slider .slick-dots li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    width: 80px;
+    height: 4px;
+    background: #333;
+}
+
+.main_slider .slick-dots li.slick-active {
+    background: #0d6efd;
+}
+
+.main_slider .slick-dots button {
+    display: none;
+}

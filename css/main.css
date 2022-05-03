@@ -237,6 +237,13 @@
     content: "\ea10";
 }
 
+.main_link .zed {
+    width: 300px;
+    height: 100px;
+    margin: 0 0 0 45%;
+}
+
+
 .main_link figure {
     position: relative;
     flex: 1;

@@ -112,6 +112,7 @@
 
 .main_banner figure:hover {
     height: 220px;
+    transition: 0.5s;
 }
 
 .main_banner figure:nth-child(1) {

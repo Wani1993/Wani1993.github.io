@@ -14,4 +14,8 @@ $(function () {
         $('.gnb').toggleClass('on');
         $(this).toggleClass('on');
     })
+
+
 })
+
+

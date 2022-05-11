@@ -443,21 +443,21 @@ section p {
 .product_list small {
     position: absolute;
     display: inline-block;
-    border-top: 20px solid #f00;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #f00;
-    border-left: 70px solid #f00;
+    border-top: 10px solid blueviolet;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid yellowgreen;
+    border-left: 65px solid orange;
     width: 0;
     height: 0;
-    top: 65px;
-    left: 1080px;
+    top: 90px;
+    left: 1090px;
     /* box-sizing: content-box; */
 }
 
 .product_list span {
     position: absolute;
-    top: -10px;
-    left: -60px;
+    top: -11px;
+    left: -55px;
     color: #fff;
 }
 

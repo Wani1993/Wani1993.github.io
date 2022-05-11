@@ -5,32 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>와니</title>
-<style>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery.mb.YTPlayer.min.css">
 
-    h1 { color : #6c757d; background: #ffa69e;
-    margin: 0; text-align: center; line-height: 100px; }
-    h2 {background: linear-gradient(to right top, #c4beff, #ffa69e);
+
+<style>
+  @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+    h1 { color : #fff; background: gray;
+    margin: 0; text-align: center; line-height: 110px; font-size: 50px; }
+    h2 {background: linear-gradient(to right top, #60dfff,#1a62fd,#f3fdff);
     color: transparent;
-    -webkit-background-clip: text;}
+    -webkit-background-clip: text;
+     font-size: 35px;}
     hr {
         position: relative;
         border: none;
-        border-top: 10px solid #ffa69e;}
+        border-top: 10px solid #fff;}
     
         body {
-           background: #f3ff9c;
-       }
+           background: url(./img/name.png) no-repeat center center/cover;
+           }
+
+    figure {
+        line-height: 35px;
+        color: #fff;
+    }
+
+    figure li:hover {
+        color: aquamarine;
+    }
+
+
+
+       figure>ol>li {
+           font-size: 20px;
+          }
+
        
+
+       .container {
+           position: relative;
+           left: 1050px;
+           top: 30px;
+       }
+
+
+
+/* 
+     .container2 {
+        position: absolute;
+        top: 150px;
+        right: 180px;
+    } */
+       
+    /* .container3 {
+        position: absolute;
+        top: 140px;
+        right: 200px;
+    } */ 
+
+    
 
 </style>
 </head>
 <body>
     
+ 
 
-    <div class="container"><h1> Learning process </h1></div>
+    <div><h1> Learning process<i class="xi-apple"></i> </h1></div>
 
     <hr>
-
+<figure>
+    <div class="container">
     <ol>
         <h2>1일차</h2>
         <li>
@@ -83,14 +131,27 @@
             <a href="t09.html"target="_blank">t09 - 220506 본격 팝업창 만들기</a>
         </li>
      
-        <h2>7~8일차</h2>
+        <h2>7~9일차</h2>
         <li>
             <a href="../trn02/index.html"target="_blank">index - 220510 홈페이지 따라만들기2</a>
         </li>
-
-
     </ol>
+    </div>
+<!-- 
+    <div class="container2">
+        <ol>
+            <h2>9일차</h2>
+            <li>
+                <a href="../trn02/index2.html"target="_blank">index - 220511 홈페이지 따라만들기2 최종본</a>
+            </li>
+        </ol>
+    </div> -->
 
+      
+</figure>
 
 </body>
+
+<script src="./js/jquery-1.12.4.min.js"></script>
+
 </html>

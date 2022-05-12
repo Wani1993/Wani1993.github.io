@@ -51,6 +51,16 @@ $(function () {
         arrows: false,
         dots: true,
         autoplay: true,
+        responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 1,
+                centerMode: false,
+                }
+            },
+        ]
+
     });
 
 
@@ -74,6 +84,11 @@ $(function () {
     $('.footer #link').on('change', function () {
         var lik = $(this).val();
         if (lik) window.open(lik)
+    })
+
+    $('.mbtn').on('click',function () {
+        $('nav').toggleClass('on');
+        $(this).toggleClass('is-active')
     })
 
 

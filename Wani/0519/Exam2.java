@@ -12,6 +12,6 @@ public class Exam2 {
 		int c = input.nextInt();
 		
 		boolean result = (++a) == b && (++b) == c;
-		System.out.println("연속되는 숫자인가 ?" + result);
+		System.out.println("연속되는 숫자인가? " + result);
 	}
 }

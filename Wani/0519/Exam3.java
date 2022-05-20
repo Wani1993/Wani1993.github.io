@@ -9,9 +9,11 @@ public class Exam3 {
 		int a = input.nextInt();
 		
 		int num1 = a % 10;
+		int num2 = (a / 10) % 10;
+		int num3 = (a / 100) % 10;
 	    int num4 = (a / 1000);
 		
-		boolean result = (num1 == num4);
+		boolean result = (num1 == num4 && num2 == num3);
         System.out.println("좌우 대칭인가? " + result);		
 	}
 }

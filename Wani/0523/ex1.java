@@ -3,10 +3,11 @@
 
 public class ex1 {
 	public static void main(String[] args) {
-		
-		for (long i = 2; i <= (i*32); i*=2) {
-			System.out.println(i);
+		long sum = 1;
+		for (int i = 1; i <= 32; i++) {
+			sum *= 2;
+			System.out.println(sum);
 		}
-		
+	
 	}
 }

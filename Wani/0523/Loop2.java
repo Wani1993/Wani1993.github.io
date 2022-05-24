@@ -2,11 +2,11 @@
 public class Loop2 {
 	public static void main(String[] args) {
 		// 1에서 10000까지 출력하기
-		// int a = 1;
-		// while (a <= 10000) {
-			// System.out.println(b);
-			// a++;
-		// }
+		int a = 1;
+		while (a <= 10000) {
+			System.out.println(a);
+			a++;
+		}
 		
 		// 20 ~ 29까지 출력하기
 		// int b = 20;
@@ -30,12 +30,12 @@ public class Loop2 {
 		// }
 		
 		// ☆ 와 ★ 번갈아가면서 출력하기
-	    int a = 0;
-		while(a < 8) {
-			System.out.println( (a % 2 == 0) ? "☆" : "★");
-			// System.out.println("☆");
-			// System.out.println("★");
-			a++;
-		}
+	    // int a = 0;
+		// while(a < 8) {
+			// System.out.println( (a % 2 == 0) ? "☆" : "★");
+			// // System.out.println("☆");
+			// // System.out.println("★");
+			// a++;
+		// }
 	}
 }

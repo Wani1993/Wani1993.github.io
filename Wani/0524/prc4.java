@@ -8,14 +8,19 @@ public class prc4 {
 		System.out.println("정수를 입력하세요: ");
 		int x = scan.nextInt();
 		
-		for (int i = 2; i < x; i++) {
+		int count = 0;
+		for (int i = x; i > 0; i--) {
 			if (x % i == 0) {
-				System.out.println("소수가 아닙니다.");
-				break;
-			} else if (x / x == 1) {
-				System.out.println("소수 입니다.");
-				break;
+				System.out.println(x / i + " ");
+				count++;
 			}
 		}
+		
+		if (count == 2) {
+			System.out.print("소수입니다.");
+		} else {
+			System.out.print("소수가 아닙니다.");
+		}
+		
 	}
 }
